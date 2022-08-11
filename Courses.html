@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> University Website Design </title>    
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+  <body>
+      <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                 <li><a href="Index.html">HOME</a>
+                 <li><a href="About.html">ABOUT</a>
+                 <li><a href="Courses.html">COURSE</a>
+                 <li><a href="Blog.html">BLOG</a>
+                <li><a href="Contact.html">CONTACT</a>
+              </li>  
+            </ul>
+         </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>  
+     <h1>OUR COURSES</h1>
+</section>
+      
+<!--------- Course ---------->
+      
+<section class="course">
+      <h1>Courses We Offer</h1>
+      <p> The Courses Are Divided Into Three Parts As Follows.</p>
+    
+      <div class="row">
+           <div class="course-col">
+                 <h3>Intermediate</h3>
+                 <p> The Intermediate Courses Is A General Course Which Gives You The Flexibility To Do Various Graduation Courses Along With Engineering and Medical.</p>
+           </div>
+          <div class="course-col">
+                 <h3>Degree</h3>
+                 <p> In Cambridge,You Will Find All Types Of Study Programmes, From Undergraduate And Graduate Degrees (Bachelors,Masters and Doctorates).</p>
+           </div>
+          <div class="course-col">
+                 <h3>Post-Graduate</h3>
+                 <p> Our University Supports World-Changers And Pathfinders Looking To Take Their Next Step.Prepare For The Real World With Placement Opportunities And Flexible Study Options.</p>
+           </div>
+      </div>
+    
+    
+</section>
+      
+<!--------- Facilities --------->
+      
+<section class="facilities">
+    <h1> Our Facilities</h1>
+    <p> Top- Notch Facilities Provided By Our School.</p>
+    
+    <div class="row">
+        <div class= "facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p> Our Library Is The Central Hub Of The University, Well-Equipped To Support and Facilities Teaching, Learning and Research Programmes Of The Institute.</p>
+        </div>
+        <div class= "facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Our University Has a Excellent Playground for Indoor And Outdoor Sports Facilities.</p>
+        </div>
+        <div class= "facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty And Healthy</h3>
+            <p>The University Of Cambridge Boasts an Array of Cafes Across The City, Serving a Range of Fairtrade coffees and teas. Our Cafes Also Stock a Selection of Sandwiches,Baked goods and Light Snacks.</p>
+        </div>
+     </div>
+</section>    
+
+      
+      
+
+
+      
+      
+<!--------- Footer -------->
+      
+<section class="footer">
+      <h4>ABOUT US</h4>
+      <P>The Mission Of University Of Cambridge University Is To Contribute To Society Through<br> Education, Learning and Research At The Highest International Level</P>
+      <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter "></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+      </div>
+</section>
+      
+<!--------JavaScript for Toggle Menu-------->
+
+<script>
+      
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+          navLinks.style.right = "0";
+      }
+      function hideMenu(){
+          navLinks.style.right = "-200px";
+      }
+      
+      
+      </script>    
+    
+    
+    
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> University Website Design </title>    
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+  <body>
+      <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                 <li><a href="Index.html">HOME</a>
+                 <li><a href="About.html">ABOUT</a>
+                 <li><a href="Courses.html">COURSE</a>
+                 <li><a href="Blog.html">BLOG</a>
+                 <li><a href="Contact.html">CONTACT</a>
+              </li>  
+            </ul>
+         </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>  
+     <h1>ABOUT US</h1>
+</section>
+      
+<!--------- about us content ---------->
+      
+<section class="about us">
+      
+    <div class="row">
+         <div class="about-col">
+               <h1>We Are The World's Largest University</h1>
+               <p>University of Cambridge, English autonomous institution of higher learning at Cambridge, Cambridgeshire, England, on the River Cam 50 miles (80 km) north of London.<br>
+
+The start of the university is generally taken as 1209, when scholars from Oxford migrated to Cambridge to escape Oxford’s riots of “town and gown” (townspeople versus scholars). To avert possible troubles, the authorities in Cambridge allowed only scholars under the supervision of a master to remain in the town. It was partly to provide an orderly place of residence that (in emulation of Oxford) the first college, Peterhouse, was founded in 1284 by Hugo de Balsham, bishop of Ely. Over the next three centuries another 15 colleges were founded, and in 1318 Cambridge received formal recognition as a studium generale from Pope John XXII.<br>Cambridge remained fairly insignificant until about 1502, when a professorship of divinity was founded—the oldest in the university. In 1511 Desiderius Erasmus went to Cambridge and did much to inculcate the new learning of the Renaissance there. In 1546 Henry VIII founded Trinity College (which was and still remains the largest of the Cambridge colleges). In 1570 Elizabeth I gave the university a revised body of statutes, and in 1571 the university was formally incorporated by act of Parliament. The new statutes, which remained in force for nearly three centuries, vested the effective government of the university in the heads of colleges. Membership of the university was no longer envisaged without membership of a college.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+         </div>
+        <div class="about-col">
+              <img src="images/about.jpg" alt="">
+        </div>
+    </div>     
+
+      
+      
+</section>
+
+      
+      
+<!--------- Footer -------->
+      
+<section class="footer">
+      <h4>ABOUT US</h4>
+      <P>The Mission Of University Of Cambridge University Is To Contribute To Society Through<br> Education, Learning and Research At The Highest International Level</P>
+      <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter "></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+      </div>
+</section>
+      
+<!--------JavaScript for Toggle Menu-------->
+
+<script>
+      
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+          navLinks.style.right = "0";
+      }
+      function hideMenu(){
+          navLinks.style.right = "-200px";
+      }
+      
+      
+      </script>    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
